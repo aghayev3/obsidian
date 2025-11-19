@@ -79,3 +79,6 @@ git commit -m "Initial commit"
 git push -u origin main
 ```
 4. Optional: install **Obsidian Git** plugin for auto-commits.
+
+![[Pasted image 20251118194251.png]]
+

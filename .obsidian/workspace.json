@@ -11,14 +11,24 @@
             "id": "ed6fd2b7f73c010b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "obsidian_github_setup.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20251118194251.png"
               },
-              "icon": "lucide-file",
-              "title": "obsidian_github_setup"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251118194251"
+            }
+          },
+          {
+            "id": "40ae733646768f49",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
             }
           }
         ]
@@ -169,6 +179,8 @@
   },
   "active": "ed6fd2b7f73c010b",
   "lastOpenFiles": [
+    "obsidian_github_setup.md",
+    "Pasted image 20251118194251.png",
     "test.md",
     "obsidian_github_setup.md.md"
   ]
