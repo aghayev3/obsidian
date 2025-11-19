@@ -4,31 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5170f16913a6d1e9",
+        "id": "3c052b771d8da775",
         "type": "tabs",
         "children": [
           {
-            "id": "ed6fd2b7f73c010b",
+            "id": "78e0c1d3f0a27db6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20251118194251.png"
+                "file": "PEH/Setting Up Our Lab/installing_vmware_virtualbox.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251118194251"
-            }
-          },
-          {
-            "id": "40ae733646768f49",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "icon": "lucide-file",
+              "title": "installing_vmware_virtualbox"
             }
           }
         ]
@@ -177,10 +167,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "ed6fd2b7f73c010b",
+  "active": "78e0c1d3f0a27db6",
   "lastOpenFiles": [
+    "attachment/Pasted image 20251119191839.png",
+    "attachment",
+    "PEH/Networking Refresher/subnetting.md",
+    "PEH/Setting Up Our Lab/installing_vmware_virtualbox.md",
+    "PEH/Setting Up Our Lab",
+    "create a link.md",
+    "Welcome.md",
     "obsidian_github_setup.md",
     "Pasted image 20251118194251.png",
+    "PEH/attachment/Pasted image 20251119131653.png",
+    "PEH/attachment/Pasted image 20251119131432.png",
+    "PEH",
+    "PEH/attachment/Pasted image 20251119131248.png",
+    "PEH/Networking Refresher/the_osi_model.md",
+    "PEH/attachment/Pasted image 20251119130137.png",
+    "PEH/Networking Refresher/common_ports_and_protocols.md",
+    "PEH/attachment/Pasted image 20251119121409.png",
+    "PEH/attachment/Pasted image 20251119121335.png",
+    "PEH/Networking Refresher/tcp_udp_3_way_handshake.md",
+    "PEH/attachment/Pasted image 20251119121220.png",
+    "PEH/attachment/Pasted image 20251119115816.png",
+    "PEH/Networking Refresher/mac_addresses.md",
+    "PEH/attachment/Pasted image 20251119115308.png",
+    "PEH/Networking Refresher/ip_addresses.md",
+    "PEH/Networking Refresher/introduction.md",
+    "PEH/Networking Refresher",
+    "PEH/Notekeeping/screenshots_for_the_win.md",
+    "PEH/Notekeeping/effective_notekeeping.md",
+    "PEH/Notekeeping",
+    "PEH/Introduction/day_in_the_life.md",
+    "PEH/Introduction",
+    "PEH/attachment",
     "test.md",
     "obsidian_github_setup.md.md"
   ]
