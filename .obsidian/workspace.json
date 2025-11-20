@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PEH/The Ethical Hacker Methodology/identifying_target.md",
+                "file": "PEH/Reconnaissance/passive_recon_overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "identifying_target"
+              "title": "passive_recon_overview"
             }
           }
         ]
@@ -183,24 +183,37 @@
   },
   "active": "78e0c1d3f0a27db6",
   "lastOpenFiles": [
-    "attachment/Pasted image 20251120070550.png",
-    "PEH/Reconnaissance/passive_recon_overview.md",
+    "PEH/Scanning & Enumeration/enum_http.md",
+    "attachment/Pasted image 20251120170129.png",
+    "attachment/Pasted image 20251120165029.png",
+    "PEH/Scanning & Enumeration/scanning_w_nmap.md",
+    "attachment/Pasted image 20251120152032.png",
     "PEH/The Ethical Hacker Methodology/identifying_target.md",
-    "attachment/Pasted image 20251120064736.png",
-    "attachment/Pasted image 20251120064535.png",
-    "attachment/Pasted image 20251120064135.png",
-    "attachment/Pasted image 20251120064056.png",
+    "PEH/Scanning & Enumeration/kioptrix.md",
+    "attachment/Pasted image 20251120151836.png",
+    "attachment/Pasted image 20251120150922.png",
+    "PEH/Scanning & Enumeration",
+    "PEH/Reconnaissance/social_media.md",
+    "attachment/Pasted image 20251120145827.png",
+    "PEH/Reconnaissance/google_fu.md",
+    "attachment/Pasted image 20251120142339.png",
+    "attachment/Pasted image 20251120142011.png",
+    "PEH/Reconnaissance/gathering_info_burpsuite.md",
+    "attachment/Pasted image 20251120141945.png",
+    "attachment/Pasted image 20251120140708.png",
+    "PEH/Reconnaissance/identifying_web_technologies.md",
+    "PEH/Reconnaissance/hunting_subdomains.md",
+    "PEH/Reconnaissance/breached_credentials.md",
+    "PEH/Reconnaissance/email_addresses.md",
+    "PEH/Reconnaissance/identifying_target.md",
+    "Networking Refresher",
+    "Introduction",
+    "PEH/Reconnaissance/passive_recon_overview.md",
     "PEH/The Ethical Hacker Methodology/five_stages.md",
     "PEH/Reconnaissance",
-    "attachment/Pasted image 20251120063347.png",
-    "attachment/Pasted image 20251120063224.png",
     "PEH/Setting Up Our Lab/installing_vmware_virtualbox.md",
     "PEH/The Ethical Hacker Methodology",
     "PEH/Setting Up Our Lab/installing_kali_linux.md",
-    "attachment/Pasted image 20251119194616.png",
-    "attachment/Pasted image 20251119192507.png",
-    "attachment/Pasted image 20251119192423.png",
-    "attachment/Pasted image 20251119191839.png",
     "attachment",
     "PEH/Networking Refresher/subnetting.md",
     "PEH/Setting Up Our Lab",
@@ -215,13 +228,6 @@
     "PEH/Networking Refresher/ip_addresses.md",
     "PEH/Networking Refresher/introduction.md",
     "PEH/Networking Refresher",
-    "PEH/Notekeeping/screenshots_for_the_win.md",
-    "PEH/Notekeeping/effective_notekeeping.md",
-    "PEH/Notekeeping",
-    "PEH/Introduction/day_in_the_life.md",
-    "PEH/Introduction",
-    "PEH/attachment",
-    "test.md",
-    "obsidian_github_setup.md.md"
+    "PEH/Notekeeping"
   ]
 }
