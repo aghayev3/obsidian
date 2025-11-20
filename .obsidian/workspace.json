@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PEH/Reconnaissance/passive_recon_overview.md",
+                "file": "PEH/Scanning & Enumeration/enum_http.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "passive_recon_overview"
+              "title": "enum_http"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "78e0c1d3f0a27db6",
   "lastOpenFiles": [
+    "PEH/Reconnaissance/passive_recon_overview.md",
     "PEH/Scanning & Enumeration/enum_http.md",
     "attachment/Pasted image 20251120170129.png",
     "attachment/Pasted image 20251120165029.png",
@@ -208,7 +209,6 @@
     "PEH/Reconnaissance/identifying_target.md",
     "Networking Refresher",
     "Introduction",
-    "PEH/Reconnaissance/passive_recon_overview.md",
     "PEH/The Ethical Hacker Methodology/five_stages.md",
     "PEH/Reconnaissance",
     "PEH/Setting Up Our Lab/installing_vmware_virtualbox.md",

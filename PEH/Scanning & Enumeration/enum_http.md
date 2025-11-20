@@ -27,3 +27,8 @@
 ```
 nikto -h https://192.168.0.134
 ```
+---
+## directory busting
+- dirbuster
+- gobuster
+- dirb
