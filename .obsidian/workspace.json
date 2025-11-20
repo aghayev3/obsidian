@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PEH/Reconnaissance/passive_recon_overview.md",
+                "file": "PEH/The Ethical Hacker Methodology/identifying_target.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "passive_recon_overview"
+              "title": "identifying_target"
             }
           }
         ]
@@ -183,12 +183,14 @@
   },
   "active": "78e0c1d3f0a27db6",
   "lastOpenFiles": [
+    "attachment/Pasted image 20251120070550.png",
+    "PEH/Reconnaissance/passive_recon_overview.md",
+    "PEH/The Ethical Hacker Methodology/identifying_target.md",
     "attachment/Pasted image 20251120064736.png",
     "attachment/Pasted image 20251120064535.png",
     "attachment/Pasted image 20251120064135.png",
     "attachment/Pasted image 20251120064056.png",
     "PEH/The Ethical Hacker Methodology/five_stages.md",
-    "PEH/Reconnaissance/passive_recon_overview.md",
     "PEH/Reconnaissance",
     "attachment/Pasted image 20251120063347.png",
     "attachment/Pasted image 20251120063224.png",
@@ -205,7 +207,6 @@
     "create a link.md",
     "Welcome.md",
     "obsidian_github_setup.md",
-    "Pasted image 20251118194251.png",
     "PEH",
     "PEH/Networking Refresher/the_osi_model.md",
     "PEH/Networking Refresher/common_ports_and_protocols.md",
