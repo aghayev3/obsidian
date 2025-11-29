@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "research"
             }
+          },
+          {
+            "id": "1e26c81f5d8a36a5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +194,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "78e0c1d3f0a27db6",
+  "active": "1e26c81f5d8a36a5",
   "lastOpenFiles": [
     "PEH/Scanning & Enumeration/enum_ssh.md",
     "PEH/Scanning & Enumeration/research.md",
