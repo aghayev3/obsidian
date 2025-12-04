@@ -22,6 +22,11 @@
 
 ## Hostname
 - `hostname` lol
+
+## Generating SSH Keys (for GitHub)
+- `SSH-Keygen` 
+- Add the public key to GitHub
+- 
 ## Installing Active Directory 
 - `ipconfig \all` to verify the interface details
 - `sconfig` and select the network settings to see the adapter index
