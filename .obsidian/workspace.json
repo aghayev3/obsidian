@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PEH/Scanning & Enumeration/research.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "research"
-            }
-          },
-          {
-            "id": "1e26c81f5d8a36a5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "title": "Welcome"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,11 +181,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "1e26c81f5d8a36a5",
+  "active": "78e0c1d3f0a27db6",
   "lastOpenFiles": [
-    "PEH/Scanning & Enumeration/enum_ssh.md",
-    "PEH/Scanning & Enumeration/research.md",
+    "create a link.md",
+    "Welcome.md",
     "PEH/Scanning & Enumeration/enum_smb.md",
+    "PEH/Scanning & Enumeration/research.md",
+    "PEH/Scanning & Enumeration/kioptrix.md",
+    "PEH/Scanning & Enumeration/enum_ssh.md",
     "PEH/Scanning & Enumeration/enum_http.md",
     "PEH/Reconnaissance/passive_recon_overview.md",
     "attachment/Pasted image 20251120170129.png",
@@ -206,7 +196,6 @@
     "PEH/Scanning & Enumeration/scanning_w_nmap.md",
     "attachment/Pasted image 20251120152032.png",
     "PEH/The Ethical Hacker Methodology/identifying_target.md",
-    "PEH/Scanning & Enumeration/kioptrix.md",
     "attachment/Pasted image 20251120151836.png",
     "attachment/Pasted image 20251120150922.png",
     "PEH/Scanning & Enumeration",
@@ -233,8 +222,6 @@
     "attachment",
     "PEH/Networking Refresher/subnetting.md",
     "PEH/Setting Up Our Lab",
-    "create a link.md",
-    "Welcome.md",
     "obsidian_github_setup.md",
     "PEH",
     "PEH/Networking Refresher/the_osi_model.md",
