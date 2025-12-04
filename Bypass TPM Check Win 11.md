@@ -1,0 +1,8 @@
+## During the Installation 
+- `Shift + F10` to open CMD
+- `regedit`
+- Modify the registry as follows (the 3rd one is `BypassSecureBootCheck`):
+
+![[Pasted image 20251204072158.png]]
+
+- Then press `Back` and redo the installation 
