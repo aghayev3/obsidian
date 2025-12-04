@@ -5,3 +5,8 @@
 ## Reboot
 - `shutdown /r /t 0`
 
+## Shutdown 
+- `shutdown /s /t 0`
+
+
+
