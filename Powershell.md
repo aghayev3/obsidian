@@ -20,3 +20,13 @@
 - `Start-Service <servicename>` 
 - For example `Start-Service WinRM` which is necessary to add a remote device to WinRM Trusted hosts
 
+## Hostname
+- `hostname` lol
+## Installing Active Directory 
+- `ipconfig \all` to verify the interface details
+- `sconfig` and select the network settings to see the adapter index
+- Set a static IP address for the Domain Controller
+- Also set the DNS to be the same as the IP of the DC
+- `Get-WindowsFeature | ? {$_.NAME -LIKE "AD*"}` to see a list of Windows Features starting with "AD"
+- Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
+- 
