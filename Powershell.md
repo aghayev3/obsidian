@@ -8,5 +8,8 @@
 ## Shutdown 
 - `shutdown /s /t 0`
 
+## PS-Remoting
+- `Enable-PSRemoting` configures the computer to receive commands
+- 
 
 
