@@ -5,4 +5,4 @@
 
 ![[Pasted image 20251204072158.png]]
 
-- Then press `Back` and redo the installation 
+- Then go Back and redo the installation 
