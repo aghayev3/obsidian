@@ -12,6 +12,11 @@
 - `Enable-PSRemoting` configures the computer to receive commands
 - `New-PSSession -ComputerName <ip or name> -Credential (Get-Credential)` to initiate a new session 
 - `Enter-PSSession <id>` to enter the session. You get the ID of the session after the `New-Session` command 
+- `$dc = New-PSSession -ComputerName <ip or name> -Credential (Get-Credential)` to save the results into `$dc` variable
+- `echo $dc`
+- `Copy-Item <filename> -ToSession $dc <file location on the remote>`
+- `Enter-PSSession $dc` 
+- 
 
 ## WinRM
 - `get-item wsman:\localhost\Client\TrustedHosts` to get the current Trusted Hosts
