@@ -7,4 +7,8 @@
 - WS-Man stands for Web Services Management is a protocol for management of devices over a network. 
 - PowerShell remoting uses WinRM for communication
 
+## SAM 
+- Security Account Manager
+- Stored on a local computer and contains information about local accounts and groups
+
 
