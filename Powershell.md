@@ -33,5 +33,11 @@
 - Set a static IP address for the Domain Controller
 - Also set the DNS to be the same as the IP of the DC
 - `Get-WindowsFeature | ? {$_.NAME -LIKE "AD*"}` to see a list of Windows Features starting with "AD"
-- Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
-- 
+- `Install-WindowsFeature AD-Domain-Services -IncludeManagementTools`
+- `Import-Module ADDSDeployment`
+- `Install-ADDSForest`
+- After restarting, make sure you set the DNS again
+
+## Change the DNS address
+- `Get-NetIPAddress -IPAddress <ip>` which gives you the interface index
+- `Set-DNSClientServerAddress -InterfaceIndex <iface index> -ServerAddresses <IPs>`
