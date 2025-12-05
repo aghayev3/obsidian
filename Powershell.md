@@ -49,3 +49,7 @@
 - `Get-NetIPAddress -IPAddress <ip>` which gives you the interface index
 - `Set-DNSClientServerAddress -InterfaceIndex <iface index> -ServerAddresses <IPs>`
 
+## Set Execution Policy
+- `set-executionpolicy remotesigned` to be able to run unsigned scripts
+- 
+
