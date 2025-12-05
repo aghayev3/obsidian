@@ -37,7 +37,10 @@
 - `Import-Module ADDSDeployment`
 - `Install-ADDSForest`
 - After restarting, make sure you set the DNS again
+- Make sure to change the joining client's DNS address to be the DC
+- `Add-Computer -DomainName <domainname> -Credential Domain\Administrator -Force -Restart` to join the computer to the AD
 
 ## Change the DNS address
 - `Get-NetIPAddress -IPAddress <ip>` which gives you the interface index
 - `Set-DNSClientServerAddress -InterfaceIndex <iface index> -ServerAddresses <IPs>`
+
