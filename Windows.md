@@ -10,5 +10,14 @@
 ## SAM 
 - Security Account Manager
 - Stored on a local computer and contains information about local accounts and groups
+- `C:\Windows\System32\config\SAM`
+- AD Accounts are stored in the domain controller in `NTDS.dit`
+
+## Security Principals
+- Identities that Windows can assign permissions to
+- An entity with SID
+- They can be Users, Groups, Computer Accounts
+- Local Principal is stored in SAM, Domain Principal is stored in the AD
+
 
 
