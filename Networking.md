@@ -12,7 +12,7 @@ interface 47
 interface 48
    dhcp-snooping trust
 ```
-- This enables DHCP snooping, tells the switch which servers are authorized, saves the binding table via TFTP, disables Option 82, and enables DHCP Snooping on certain VLANs. Ports 47-48 are uplinks and are therefore trusted. 
+- This enables DHCP snooping, tells the switch which servers are authorized, saves the binding table via TFTP, disables Option 82, and enables DHCP Snooping on certain VLANs. Ports 47-48 are uplinks and trusted. 
 - DHCP Snooping Binding is a database that records the association between IP addresses and MAC addresses of devices that have successfully completed a DHCP transaction on a network. This binding helps to prevent unauthorized devices from acting as DHCP servers and enhances overall network security.
 - For example: 
 ```
@@ -43,3 +43,21 @@ RH-GRB-3D2# show dhcp-snooping binding
   58bfea-204d16 10.30.1.216     30   4         22041
   a41875-8bc6bf 10.30.1.70      30   23        22058
 ```
+
+## Instrumentation Monitor
+- The operational thresholds that are monitored on the switch. By default, the instrumentation monitor is disabled. Syntax:
+```
+instrumentation monitor [parameterName|all] [<low|med|high|limitValue>] 
+no instrumentation monitor [parameterName|all] [<low|med|high|limitValue>]
+```
+- Its purpose is to detect loops, scanning, anomalies, MAC floods, login failures, etc. and providing logs/alerts.
+
+## Logging
+
+```
+logging 10.200.100.102
+logging severity warning
+```
+- Syslog server at 10.200.100.102
+- The switch only sends Warnings or higher
+- 
