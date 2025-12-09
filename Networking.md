@@ -79,3 +79,11 @@ no port-security 1 eavesdrop-prevention
 - It shouldn't be applied on uplink ports because that would cause chaos because of so many MACs
 - Eavesdrop prevention blocks ARP poisoning, but might cause compatibility issues with some devices
 
+## sFlow
+- Short for "sampled flow" is used for traffic sampling
+```
+sflow 1 destination 10.200.100.102
+sflow 1 polling 36 30
+sflow 1 sampling 36 200
+```
+- In this case the collector is 10.200.100.102, 
