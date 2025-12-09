@@ -76,4 +76,6 @@ no port-security 1 eavesdrop-prevention
 	- MAC flooding attacks
 	- Unauthorized devices being plugged in
 	- ARP spoofing (via eavesdrop prevention)
-- It shouldn't be ap
+- It shouldn't be applied on uplink ports because that would cause chaos because of so many MACs
+- Eavesdrop prevention blocks ARP poisoning, but might cause compatibility issues with some devices
+
