@@ -80,10 +80,11 @@ no port-security 1 eavesdrop-prevention
 - Eavesdrop prevention blocks ARP poisoning, but might cause compatibility issues with some devices
 
 ## sFlow
-- Short for "sampled flow" is used for traffic sampling
+- Short for "sampled flow" is a traffic monitoring protocol
+- It samples packets and interface statistics on a switch and sends them to a collector for analysis.
 ```
 sflow 1 destination 10.200.100.102
 sflow 1 polling 36 30
 sflow 1 sampling 36 200
 ```
-- In this case the collector is 10.200.100.102, 
+- The collector is 10.200.100.102, the switch reports statistics for port 36 every 30 seconds and samples one out of every 200 packets on that port
