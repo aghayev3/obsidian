@@ -59,5 +59,21 @@ logging 10.200.100.102
 logging severity warning
 ```
 - Syslog server at 10.200.100.102
+- A syslog server is a centralized logging system that collects, stores, and organizes log messages from various network devices, servers, and applications.
 - The switch only sends Warnings or higher
-- 
+- Other available options are `debug, info, warning, error, major`
+
+## Port Security 
+- Port Security typically involves configuring switches to allow only specific MAC addresses or limiting the number of devices that can connect to a port, enhancing overall network security. Example on HP Switch: 
+```
+port-security 1 learn-mode limited-continuous
+port-security 1 address-limit 32
+port-security 1 action send-alarm
+no port-security 1 eavesdrop-prevention
+```
+- In this case the port dynamically learns up to 32 MAC addresses and if that number is exceeded it sends and alarm but doesn't stop learning and allowing new MACs. In this case the limit is purely a monitoring threshold. 
+- Port Security prevents the following
+	- MAC flooding attacks
+	- Unauthorized devices being plugged in
+	- ARP spoofing (via eavesdrop prevention)
+- It shouldn't be ap
