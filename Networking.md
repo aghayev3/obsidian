@@ -88,3 +88,8 @@ sflow 1 polling 36 30
 sflow 1 sampling 36 200
 ```
 - The collector is 10.200.100.102, the switch reports statistics for port 36 every 30 seconds and samples one out of every 200 packets on that port
+
+## IGMP
+- Internet Group Management Protocol is a network layer protocol used in IPv4 networks to manage multicast group memberships
+- IGMP Querier is a network device that manages the IGMP by sending queries to discover which devices on a local network segment are interested in receiving multicast traffic
+- IGMP snooping is a technique used by network switches to listen to Internet Group Management Protocol (IGMP) traffic, allowing them to manage and forward multicast data only to devices that have requested it
