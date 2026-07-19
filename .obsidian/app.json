@@ -1,1 +1,6 @@
-{"attachmentFolderPath":"Resources/attachments","newFileLocation":"folder","newFileFolderPath":"Resources","alwaysUpdateLinks":true}
+{
+  "attachmentFolderPath": "Resources/attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Resources",
+  "alwaysUpdateLinks": true
+}
