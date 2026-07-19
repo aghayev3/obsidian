@@ -11,10 +11,14 @@
             "id": "da88a67dbc079576",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Resources/Windows/Bypass TPM Check Win 11.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Bypass TPM Check Win 11"
             }
           }
         ]
@@ -168,6 +172,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -177,7 +183,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "878f38bb7298a7c3",
+  "active": "da88a67dbc079576",
   "lastOpenFiles": [
     "Daily",
     "Templates",
